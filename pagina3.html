@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tabla y Operaciones - Página 3</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Tabla y Operaciones</h1>
+    <p class="lead">Tabla con encabezados animados y botones para realizar operaciones (con prompts).</p>
+  </header>
+
+  <main class="container">
+    <section class="buttons-row">
+      <a class="nav-btn" href="index.html">Inicio (Página 1)</a>
+      <a class="nav-btn" href="pagina2.html">Galería (Página 2)</a>
+    </section>
+
+    <section class="table-section">
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th class="animated-header">OPERACIÓN</th>
+            <th class="animated-header">DESCRIPCIÓN</th>
+            <th class="animated-header">BOTONES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SUMA</td>
+            <td>Suma los 2 números ingresados</td>
+            <td><button class="action-btn" data-action="sum">Calcular</button></td>
+          </tr>
+          <tr>
+            <td>DIVISIÓN</td>
+            <td>Divide el 1ro número por el 2do</td>
+            <td><button class="action-btn" data-action="div">Calcular</button></td>
+          </tr>
+          <tr>
+            <td>PROMEDIO</td>
+            <td>Promedia los 2 números</td>
+            <td><button class="action-btn" data-action="avg">Calcular</button></td>
+          </tr>
+          <tr>
+            <td>OTRO</td>
+            <td>Ejemplo extra</td>
+            <td><button class="action-btn" data-action="custom">Calcular</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
 
